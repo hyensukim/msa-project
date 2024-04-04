@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888 # 읽어오고자 하는 Config 서버 위치
+      name: user-service # 설정 정보가 담긴 YAML 파일명
+#  profiles:
+#    active: dev
